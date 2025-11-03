@@ -1,16 +1,13 @@
-# assignment_3
+About the Movie Explorer App
+This is a multi-page Flutter application developed to fulfill the requirements of Assignment 3 (MAD201). The app's primary objective is to demonstrate proficiency in core Flutter concepts by managing a collection of movies and a personalized favorites list.
 
-A new Flutter project.
+Core Features Implemented
+Multi-Screen Navigation: Implemented the required Bottom Navigation Bar (Home, Favorites, Profile) and a full Navigation Drawer (About, Contact).
 
-## Getting Started
+Dynamic Data Display: Movies are listed using a dynamic ListView.builder with a reusable, custom movie tile widget.
 
-This project is a starting point for a Flutter application.
+State Management: Local state (setState()) is used to toggle the Favorite status on the detail screen, which dynamically updates the dedicated Favorites list.
 
-A few resources to get you started if this is your first Flutter project:
+Data Passing: Data for the selected movie is passed between the list screen and the detail screen for exploration.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Modular Design: The project adheres to best practices by organizing components into dedicated models/, screens/, and widgets/ directories.
